@@ -1,0 +1,77 @@
+.products-page {
+    padding: 60px 8%;
+    background-color: #fafcf8;
+  }
+  
+  .products-title {
+    text-align: center;
+    font-size: 36px;
+    color: #2f5d2f;
+    margin-bottom: 10px;
+  }
+  
+  .products-subtitle {
+    text-align: center;
+    color: #555;
+    margin-bottom: 50px;
+    font-size: 16px;
+  }
+  
+  .products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 40px;
+  }
+  
+  .product-card {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 25px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-6px);
+  }
+  
+  .product-card img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 20px;
+  }
+  
+  .product-card h3 {
+    color: #2f5d2f;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  
+  .product-desc {
+    color: #444;
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+  
+  .product-card ul {
+    padding-left: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .product-card ul li {
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: #333;
+  }
+  
+  .whatsapp-info {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #1f7a1f;
+    background: #f0fff0;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 500;
+  }
+  
